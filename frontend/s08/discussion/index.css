@@ -1,0 +1,72 @@
+/*
+CSS Rules selector {
+property: value:
+}
+*/
+
+* {
+	font-family: "Courier New", monospace;
+	font-size: 20 px;
+}
+body {
+	background-color: skyblue;
+}
+html {
+	scroll-behavior: smooth;
+}
+nav {
+	background-color: white;
+}
+div {
+	float: right;
+}
+/*Type Selector*/
+h1 {
+	color: yellow !important;
+	text-align: center;
+	font-size: 2rem;
+}
+section {
+	height: 100vh;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5rem;
+}
+ol {
+	list-style-type: none;
+}
+/*ID Selector*/
+/*#id-name*/
+#zuitt-motto{
+/*	letter-spacing: 5px*/
+}
+/*Class Selector*/
+/*.class-name*/
+.offering-item {
+	text-transform: uppercase;
+}
+h3
+{
+	letter-spacing: 25px;
+}
+/*Adjacent Sibling Selector*/
+/*selector + selector*/
+h3 + img{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+/*Descendant Selector*/
+/*selector selector*/
+#bootcamp-learning-list li {
+	color: #FFBF00;
+}
+/*General Sibling Selector*/
+/*selector ~ selector*/
+h2 ~ a {
+	text-decoration: none;
+}
+.modules {
+	letter-spacing: 3px;
+}

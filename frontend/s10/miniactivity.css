@@ -1,0 +1,16 @@
+#box1 {
+	 height: 50px;
+  	width: 50px;
+  	padding: 10px;
+  	margin: 20px;
+  	background-color: red;
+}
+#box2 {
+	box-sizing: content-box;
+	height: 140px;
+  	width: 140px;
+  	padding: 20px;
+  	margin: 30px;
+  	background-color: blue;
+
+}
